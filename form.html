@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Form Layout</title>
+  <style>
+    body {
+      font: normal;
+    }
+    label {
+      display: inline-block;
+      width: 90px;
+      padding-right: 20px;
+      vertical-align: middle;
+    }
+    input[type="text"] {
+      height: 40px;
+      padding: 0 8px;
+      font: normal;
+      box-sizing: border-box; 
+    }
+
+    .row {
+
+    }
+    
+  </style>
+</head>
+<body>
+    <form action="" method="post">
+      <div class="row">
+        <label for="name">Your Name</label>
+        <input type="text" name="name" id="name"/> 
+      </div>
+      <div class="row">
+        <label for="address">Address</label>
+        <input type="text" name="address" id="address"/>
+      </div>
+    </form>
+</body>
+</html>
